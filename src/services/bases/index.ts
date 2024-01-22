@@ -1,4 +1,4 @@
-import { http } from "../../providers/api/http";
+import { http } from "providers/api/http";
 
 export interface IParams {
   jobId: number;

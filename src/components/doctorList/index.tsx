@@ -1,4 +1,4 @@
-import { useDoctorList, useDrList } from "../../hooks/useDoctorList";
+import { useDoctorList, useDrList } from "hooks/useDoctorList";
 
 const DoctorList = () => {
   const { data } = useDoctorList();

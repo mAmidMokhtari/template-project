@@ -1,11 +1,10 @@
-import "./index.scss";
+import "index.scss";
 
 import React from "react";
 
+import App from "App";
+import ApiProvider from "providers/api";
 import ReactDOM from "react-dom/client";
-
-import App from "./App";
-import ApiProvider from "./providers/api";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

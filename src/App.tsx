@@ -1,5 +1,5 @@
-import DoctorList from "./components/doctorList";
-import styles from "./styles.module.scss";
+import DoctorList from "components/doctorList";
+import styles from "styles.module.scss";
 
 const App = () => {
   return (

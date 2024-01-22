@@ -1,8 +1,8 @@
-import { useQuery } from "@tanstack/react-query";
+import { http } from "providers/api/http";
+import { getItem, IParams } from "services/bases";
+import { params } from "services/constants";
 
-import { http } from "../providers/api/http";
-import { getItem, IParams } from "../services/bases";
-import { params } from "../services/constants";
+import { useQuery } from "@tanstack/react-query";
 
 // Closure or Class
 export const useDoctorList = () => {
